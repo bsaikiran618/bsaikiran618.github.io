@@ -14,6 +14,12 @@ body
 	background: linear-gradient(rgb(2,21,48),rgb(54,106,125));
 }
 
+.heading
+{
+	color:none;
+	color: rgb(77,204,250);
+}
+
 table
 {
 	color: black;
