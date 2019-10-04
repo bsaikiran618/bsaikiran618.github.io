@@ -1,96 +1,131 @@
-<!-- Hello this is my resume -->
-
-<!doctype html>
+<!--This is the first version of the 'proper' resume -->
+<!DOCTYPE html>
 
 <html>
+
 	<head>
-		<title> Dank Resume </title>
+
+	<div style="text-align:center">
+		<title> My Cool Resume</title>
+		<u><i><h2>Resum&eacute</h2></i></u>
+
 
 		<link rel="stylesheet" href="style.css">
 
 	</head>
-
+	
 	<body>
+		
+		<section id="top">
 			
-			<p style="text-align:center;border: 3px solid black"> <b> Curriculum Vitae <sub><i style="color: powderblue;">(a.k.a 'the Resume')</i></sub></b></p>
+			<!-- This section holds my name,email addr and phone number -->
+			<strong>Sai Kiran Boddu</strong>
 
-			<p style="text-align:center; color: black;background-color:RGB(120,120,120);">
-			<img src="batsy.jpg" class="propic">
-			 <i> Sai Kiran B.</i>
-			</p>
-			<p style="text-align:center;">
-				<a href="mailto: bsaikiran618@gmail.com">
-					<i>
-						bsaikiran618@gmail.com
-					</i>
-				</a>
-			</p>
-			<p style="text-align:center;"> <b>Ph no.</b><i>8790805406</i></p>
-			<hr>
-
-			<p class="bigtext">Interests</p>
-
-				<p >
-					<ul>
-							<li>	Programming</li>
-							<li>	Computer Vision</li>
-							<li>	Information security</li>
-							<li>	Algorithm Design</li>
-					</ul>
-				</p>
 				<p>
-
-					<p style="font-family:courier"><b><u><i>EDUCATIONAL QUALIFICATIONS</i></u></b></p>
-					<table style="width:100%">
-						<tr>
-								<th>Qualification</th>
-								<th>Institution</th>
-								<th>Grade</th>
-						</tr>
-						<tr>
-								<td> 10th standard</td>
-								<td> Johnson Grammar school</td>
-								<td> 91%</td>
-						</tr>
-						<tr>
-								<td> Intermediate </td>
-								<td> PAGE junior College</td>
-								<td> 82%</td>
-						</tr>
-	
-					</table>
+				<a href="mailto:bsaikiran618@gmail.com ?subject=hi &body=hello man"><em>bsaikiran618@gmail.com</em></a>
 				</p>
+				<!-- Inserting my image here -->
+				<img src="myimage.jpg" class="propic">
+		</div>
+		</section>
 
-<p style="font-family:courier"><b><u><i>SKILLZ</i></u></b></p>
-	
- <table>
- 	<tr><th> Field </th><th> Experience </th></tr>
-	<tr>
-		<td>C Language</td>
-		<td>Hello ,World!</td>
-	</tr>
-	<tr>
-		<td>Linux</td><td>using it since 2016</td>
-	</tr>
-	<tr>
-		<td>Counter Strike</td><td>!Dominating!</td>
-	</tr>
- </table>
 
-	<p style="font-family:courier"><b><u><i>Currently Dabbling with..</i></u></b></p>
+		<section>
+			<!--This section is to add my aim -->
+				<p class="hlt" id="QUOTE">
+					 <i><b> You will remember me for centuries..</b></i>
+				</p>
+		</section>
 
-	<ul>
-		<li>C++</li>
-		<li>Python</li>
-		<li>Simple Direct media Layer(SDL)</li>
-	</ul>
+		<section>
+			<!--This section is for my introduction -->
+			<p>
+				I am a passionate software developer, whose chief interests are
+				Machine learning, web development,  game development, security research
+				and making things from scratch.
+			<p>
+		</section>
+
+		<section>
+			 <!--This section contains my Educational Qualifications -->
+			 <!--I'm going to put a table to show the data -->
+
+			 <h3><u>Educational Qualifications</u></h3>
+			 
+			 <table border="2px" class="tableclass">
+			 	<tr>
+				<b>
+						<th>Education</th>
+						<th>Institution</th>
+						<th>Grade</th>
+				</b>
+				</tr>
+				<tr>
+				<i>
+						<td> ICSE </td>
+						<td> Johnson Grammar School</td>
+						<td> 91%</td>
+				</i>
+				</tr>
+				<tr>
+				<i>
+						<td>Intermediate(TS)</td>
+						<td>PAGE Junior College</td>
+						<td>81%</td>
+				</i>
+				</tr>
+
+			 </table>
+
+		</section>
+
+		<section>
+			<!--This section contains my technical skills -->
+			<!--These are displayed as a unordered list of elements-->
+			<h3><u>Technical Skills</u></h3>
+				<ul>
+					<li><b><i> C </i></b></li>
+					<li><b><i> Basic Linux</i></b></li>
+					<li><b><i> Gaming</i></b></li>
+				</ul>
+		</section>
+
+		<section>
+			<!--This section lists the projects I have worked on -->
+				<h3><u>Projects Worked On</u></h3>
+				<ul style="list-style-type:square"> <!--Used a styling attribute here -->
+					<li><em>Vigenere Cipher Encryptor-Decryptor</em></li>
+					<li><em>CLI based Minesweeper clone</em></li>
+					<li><em>Simple timer</em></li>
+					<li><em>Co-founded Alphabet&reg Inc.</em></li>
+				</ul>
+		</section>
+
+		<section>
+			<!--This section lists my hobbies and passions -->
 			
+			<h3><u>Hobbies</u></h3>
+				<ul>
+						<li><i>Playing Chess</i></li>
+						<li><i>recreational programming</i></li>
+						<li><i>playing video games</i></li>
+						<li><i>long distance cycling</i></li>
+						<li><i>Watching Sci-Fi movies</i></li>
+						<li><i>Reading Sci-Fi</i></li>
+				</ul>
+		</section>
 
-<hr>
+	<footer>
+			<i><b><u>Social Media:</u><b></i>
+			<ul>
+					<li><a href="https://github.com/bsaikiran618/" target="_blank"><img src="githublogo.png" class="icons"></a></li>
+					<li><a href="https://twitter.com/boddulus" target="_blank"><img src="twitterlogo.png" class="icons"></a></li>
+			</ul>
+			
+	</footer>
 
- <p><b><i>You can meet me at:</i></b></p>
- <address>
- 	221 Baker Street.
- </address>
+		<a href="#top">go to top</a>
+	
 	</body>
+
 </html>

@@ -1,48 +1,62 @@
+.hlt
+{
+	background: rgba(255,255,255,0.5);
+}
 body
 {
-	background-color: RGB(0,28,79);
-	color: powderblue;
+	background: rgb(5,138,153);
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: rgb(240,240,240);
+	/*background-image: url('backgroundimage.jpg');
+	background-repeat:no-repeat;
+	*/
+	background: linear-gradient(rgb(2,21,48),rgb(54,106,125));
 }
-p
+
+table
 {
-	font-family: verdana;
-	color: white;
+	color: black;
+	text-align:center;
+	font-family: courier;
+	width:50%;
+	height:50%;
+	background : black;
+}
+td
+{
+	background:ivory;
+}
+th
+{
+	background: rgb(180,180,180);
 }
 
-	.first
-	{
-	color: red;
-	font-family:courier
-	}
-
+.propic
+{
+	width:150px;
+	height:150px;
+	border: 30px solid gray;
+	border-radius: 10px;
+	margin-left:500px;
+	margin:0;
+}
+.icons
+{
+	width: 50px;
+	height:50px;
+	border-radius:10px;
+}
+a
+{
+	text-decoration:none;
+}
 a:link
 {
-	color: powderblue;
+	display: block;
+	color:ivory;
 }
 a:hover
 {
-	color: RGB(100,200,255);
-	font-family: arial
-}
-.propic
-{
-	width: 150px;
-	height:150px;
-	background-color: RGB(180,180,180);
-	padding: 20px 20px;
-	margin: 20px;
-	float: left;
-	
-}
-.bigtext
-{
-	font-style:bold;
-	font-family:monospace;
-	font-size:20px;
-	text-decoration:underline;
-}
-table,th,tr
-{
-	font-family:courier;
-	border: 1px solid powderblue;
+	background: gray;
 }
