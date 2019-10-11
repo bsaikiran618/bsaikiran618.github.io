@@ -5,42 +5,44 @@
 
 	<head>
 
-	<div style="text-align:center">
-		<title> My Cool Resume</title>
-		<u><i><h2>Resum&eacute</h2></i></u>
+		<title> mon resum&eacute;</title>
+		<link rel="stylesheet" href-"https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Nanum+Gothic&display=swap">
+		<link rel="stylesheet" href="./style.css">
 
-
-		<link rel="stylesheet" href="style.css">
-
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap">
 	</head>
 	
 	<body>
 		
 		<section id="top">
 			
+		<h2 class="heading"><em><u>Resum&eacute;</u></em></h2>
 			<!-- This section holds my name,email addr and phone number -->
-			<strong>Sai Kiran Boddu</strong>
+			<div class="subheading"><strong>Sai Kiran Boddu</strong></div>
 
 				<p>
-				<a href="mailto:bsaikiran618@gmail.com ?subject=hi &body=hello man"><em>bsaikiran618@gmail.com</em></a>
+			<div class="emailaddr">	<a href="mailto:bsaikiran618@gmail.com ?subject=hi &body=hello man"><em>bsaikiran618@gmail.com</em></a></div>
 				</p>
 				<!-- Inserting my image here -->
-				<img src="myimage.jpg" class="propic">
-		</div>
+				
+				
+				<img src="myimage.jpg" class="image">
+
 		</section>
 
 
 		<section>
 			<!--This section is to add my aim -->
-				<p class="hlt" id="QUOTE">
-					 <i><b> You will remember me for centuries..</b></i>
+				<p	style="text-align:center">
+					<quote><i><b>&quot;Its not what I am underneath, but what I do that defines me.&quot;</b></i></quote>
 				</p>
 		</section>
 
 		<section>
 			<!--This section is for my introduction -->
-			<p>
-				I am a passionate software developer, whose chief interests are
+			<p class="content">
+				I am a passionate software developer, whose chief interests are in
 				Machine learning, web development,  game development, security research
 				and making things from scratch.
 			<p>
@@ -50,9 +52,9 @@
 			 <!--This section contains my Educational Qualifications -->
 			 <!--I'm going to put a table to show the data -->
 
-			 <h3 class="heading">Educational Qualifications</h3>
+			 <h3>Educational Qualifications</h3>
 			 
-			 <table border="2px" class="tableclass">
+			 <table>
 			 	<tr>
 				<b>
 						<th>Education</th>
@@ -82,18 +84,23 @@
 		<section>
 			<!--This section contains my technical skills -->
 			<!--These are displayed as a unordered list of elements-->
-			<h3 class="heading">Technical Skills</h3>
+			<h3>Technical Skills</h3>
 				<ul>
 					<li><b><i> C </i></b></li>
+
+					<li><b><i> C++ </i></b></li>
+
+					<li><b><i> HTML </i></b></li>
+
+					<li><b><i> CSS </i></b></li>
 					<li><b><i> Basic Linux</i></b></li>
-					<li><b><i> Gaming</i></b></li>
 				</ul>
 		</section>
 
 		<section>
 			<!--This section lists the projects I have worked on -->
-				<h3 class="heading">Projects Worked On</h3>
-				<ul style="list-style-type:square"> <!--Used a styling attribute here -->
+				<h3>Projects Worked On</h3>
+				<ul> <!--Used a styling attribute here -->
 					<li><em>Vigenere Cipher Encryptor-Decryptor</em></li>
 					<li><em>CLI based Minesweeper clone</em></li>
 					<li><em>Program Execution timer</em></li>
@@ -104,7 +111,7 @@
 		<section>
 			<!--This section lists my hobbies and passions -->
 			
-			<h3 class="heading">Hobbies</h3>
+			<h3>Hobbies</h3>
 				<ul>
 						<li><i>Playing Chess</i></li>
 						<li><i>recreational programming</i></li>
@@ -116,15 +123,15 @@
 		</section>
 
 	<footer>
-			<i><b>Social Media:<b></i>
+			<h3><i><b>Social Media<b></i></h3>
 			<ul>
-					<li><a href="https://github.com/bsaikiran618/" target="_blank"><img src="githublogo.png" class="icons"></a></li>
-					<li><a href="https://twitter.com/boddulus" target="_blank"><img src="twitterlogo.png" class="icons"></a></li>
+					<li class="continuous"><a href="https://github.com/bsaikiran618/" target="_blank"><img src="githublogo.png" class="icons"></a></li>
+					<li class="continuous"><a href="https://twitter.com/boddulus" target="_blank"><img src="twitterlogo.png"class="icons"></a></li>
 			</ul>
 			
 	</footer>
 
-		<a href="#top" style="color:yellow">go to top</a>
+		<a href="#top" style="color:gray;font-family:monospace;">go to top</a>
 	
 	</body>
 
